@@ -4,6 +4,24 @@
 {% block header %}{% endblock header %}
     {% block main %}
         <main>
+            <header>
+                <nav class="navbar navbar-expand-md mb-4 text-bg-info">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="/">FABF</a>
+
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse me-4 d-flex justify-content-end"  id="navbarCollapse">
+                            <div class="d-flex justify-content-end">
+                                <a class="btn btn-outline-success me-2 mx-2" href="login">Connexion</a>
+                                <a class="btn btn-success" href="register">Inscription</a>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+        </header>
         <div class="container">
 
         <section class="section register min-vh-100 d-flex flex-column align-items-center justify-content-center py-4">
