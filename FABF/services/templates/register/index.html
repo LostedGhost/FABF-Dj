@@ -90,16 +90,6 @@
                                         <label class="btn btn-outline-primary py-2" for="radiogender1">Féminin</label>
                             </div>
                         </div>
-
-                        <div class="col-15">
-                            <label for="yourRole" class="form-label">Sélectionnez votre rôle</label>
-                            <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
-                                {% for role in roles%}
-                                        <input type="radio" class="btn-check" name="role" value="{{role.id}}" id="btnradio{{role.id}}" autocomplete="off" >
-                                        <label class="btn btn-outline-success py-2" for="btnradio{{role.id}}">{{role.label}}</label>
-                                {%endfor%}
-                            </div>
-                        </div>
                         
                         
                         <div class="col-12">
