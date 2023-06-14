@@ -2,9 +2,16 @@
 {% block title %}Home {% endblock %}
  {% block main %}
 
-<section class="showcase mb-5 py-5 h-100vh" >
+  <style>
+        .bg-image {
+            background-image: url(assetts/img/hero-img.png);
+            background-size: cover;
+            background-position: center center;
+        }
+    </style>
+<section id="accueil" class="showcase mb-5 py-5 h-100vh" >
   <div class="row g-0">
-    <div class="col-lg-6  showcase-img"><img src="assetts/img/hero-img.png" class="img-fluid rounded w-50" alt="Description"/></div>
+    <div class="col-lg-6  showcase-img bg-image"><img src="assetts/img/hero-img.png" class="img-fluid rounded w-50" alt="Description"/></div>
     <div class="col-lg-6 my-auto showcase-text text-center small">
         <h2 class="text-success fs-1 fw-bold">Bienvenue sur FABF</h2>
         <p class="lead mb-0 fs-6 ">Nous répondons efficacement aux besoins des forces armées en matière de gestion financière avec notre plateforme spécialisée:
@@ -70,7 +77,7 @@
   </div>
 </section> -->
 
-<section class="features-icons bg-light text-center mb-2 py-5">
+<section id="services" class="features-icons bg-light text-center mb-2 py-5">
   <h2 class="text-success">NOS SERVICES</h2>
   <hr>
   <div class="container h-100">
@@ -105,7 +112,7 @@
 
 
 
-<section id="about" class="about bg-light py-5">
+<section id="apropos" class="about bg-light py-5">
   <div class="container" data-aos="fade-up">
 
     <div class="section-title text-center">
