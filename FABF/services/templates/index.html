@@ -2,82 +2,147 @@
 {% block title %}Home {% endblock %}
  {% block main %}
 
-<section class="showcase mb-5" >
+<section class="showcase mb-5 py-5 h-100vh" >
   <div class="row g-0">
-    <div class="col-lg-6 text-white showcase-img"><img src="assets/img/bg-showcase-2.jpeg" class="img-fluid" alt="..."></div>
+    <div class="col-lg-6  showcase-img"><img src="assetts/img/hero-img.png" class="img-fluid rounded w-50" alt="Description"/></div>
     <div class="col-lg-6 my-auto showcase-text text-center small">
-        <h2 class="text-success">Bienvenue sur FABF</h2>
-        <p class="lead mb-0 ">Nous répondons efficacement aux besoins des forces armées en matière de gestion financière avec notre plateforme spécialisée:
+        <h2 class="text-success fs-1 fw-bold">Bienvenue sur FABF</h2>
+        <p class="lead mb-0 fs-6 ">Nous répondons efficacement aux besoins des forces armées en matière de gestion financière avec notre plateforme spécialisée:
           la solution tout en un pour optimiser vos ressources et soutenir vos missions essentielles</p>
     </div>
   </div>
 </section>
 
-<section class="features-icons bg-light text-center mb-2">
+ <!-- <section class="features-icons bg-light text-center mb-2 py-5 col-12" >
   <h4 class="text-success">NOS SERVICES
     <hr>
   </h4>
-  <div class="container">
-      <div class="row">
-          <div class="col-lg-4">
-              <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-                  <div class="features-icons-icon d-flex"><i class="bi bi-currency-dollar m-auto text-success"></i></div>
+  <div class="container h-100">
+      <div class="row justify-content-between align-items-start flex-wrap">
+          
+              <div class=" col-lg-4 col-md-6 col-sm-12 shadow-lg">
+                  <div class="features-icons-icon d-flex" ><i class="bi bi-currency-dollar m-auto text-success fs-1" ></i></div>
                   <h3> Relevé de salaire</h3>
                   <p class="lead mb-0">Votre relevé de salaire est disponible 24h/24 et7j/7</p>
               </div>
-          </div>
-          <div class="col-lg-4">
-              <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-                  <div class="features-icons-icon d-flex"><i class="bi bi-file-earmark-plus m-auto text-success"></i></div>
+          
+          
+              <div class=" col-lg-4 col-md-6 col-sm-12 shadow-lg">
+                  <div class="features-icons-icon d-flex"><i class="bi bi-file-earmark-plus m-auto text-success fs-1"></i></div>
                   <h3>Enregistrement de demande</h3>
                   <p class="lead mb-0">Nous enregistrerons vos demandes de domiciliation ou de changement d'assignation</p>
               </div>
-          </div>
-          <div class="col-lg-4">
-              <div class="features-icons-item mx-auto mb-0 mb-lg-3">
-                  <div class="features-icons-icon d-flex"><i class="bi-terminal m-auto text-success"></i></div>
+          
+          
+              <div class=" col-lg-4 col-md-6 col-sm-12 shadow-lg">
+                  <div class="features-icons-icon d-flex"><i class="bi-terminal m-auto text-success fs-1"></i></div>
                   <h3>Envoi de documents</h3>
                   <p class="lead mb-0">Nous permettons aux agents des structures d'échanger des documents en toute sécurité</p>
               </div>
-          </div>
+          
       </div>
   </div>
+</section>  -->
+
+<!-- <section class="features-icons bg-light text-center mb-2 py-5">
+  <h2 class="text-success">NOS SERVICES</h2>
+  <hr>
+  <div class="container h-100">
+    <div class="row justify-content-between align-items-start flex-wrap">
+      <div class="col-lg-4 col-md-6 col-sm-12 shadow-lg">
+        <div class="features-icons-icon d-flex"><i class="bi bi-currency-dollar m-auto text-success display-1"></i></div>
+        <h3>Relevé de salaire</h3>
+        <p class="lead mb-0">Votre relevé de salaire est disponible 24h/24 et 7j/7</p>
+      </div>
+
+      <div class="col-lg-4 col-md-6 col-sm-12 shadow-lg">
+        <div class="features-icons-icon d-flex"><i class="bi bi-file-earmark-plus m-auto text-success display-1"></i></div>
+        <h3>Enregistrement de demande</h3>
+        <p class="lead mb-0">Nous enregistrerons vos demandes de domiciliation ou de changement d'assignation</p>
+      </div>
+
+      <div class="col-lg-4 col-md-6 col-sm-12 shadow-lg">
+        <div class="features-icons-icon d-flex"><i class="bi bi-terminal m-auto text-success display-1"></i></div>
+        <h3>Envoi de documents</h3>
+        <p class="lead mb-0">Nous permettons aux agents des structures d'échanger des documents en toute sécurité</p>
+      </div>
+    </div>
+  </div>
+</section> -->
+
+<section class="features-icons bg-light text-center mb-2 py-5">
+  <h2 class="text-success">NOS SERVICES</h2>
+  <hr>
+  <div class="container h-100">
+    <div class="row justify-content-between align-items-stretch flex-wrap">
+      <div class="col-lg-4 col-md-6 col-sm-12 shadow-lg d-flex">
+        <div class="features-icons-icon m-auto"><i class="bi bi-currency-dollar text-success display-1"></i></div>
+        <div class="flex-fill">
+          <h3 class="text-success fs-4">Relevé de salaire</h3>
+          <p class="lead mb-0 fs-6">Votre relevé de salaire est disponible 24h/24 et 7j/7</p>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 col-sm-12 shadow-lg d-flex">
+        <div class="features-icons-icon m-auto"><i class="bi bi-file-earmark-plus text-success display-1"></i></div>
+        <div class="flex-fill">
+          <h3 class="text-success fs-4">Enregistrement de demandes</h3>
+          <p class="lead mb-0 fs-6">Nous enregistrerons vos demandes de domiciliation ou de changement d'assignation</p>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 col-sm-12 shadow-lg d-flex">
+        <div class="features-icons-icon m-auto"><i class="bi bi-terminal text-success display-1"></i></div>
+        <div class="flex-fill">
+          <h3 class="text-success fs-4">Envoi de documents</h3>
+          <p class="lead mb-0 fs-6">Nous permettons aux agents des structures d'échanger des documents en toute sécurité</p>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
-<section id="about" class="about bg-light text-center mb-2">
+
+
+
+
+<section id="about" class="about bg-light py-5">
   <div class="container" data-aos="fade-up">
 
-    <div class="section-title text-success">
-      <h2 >A propos</h2>
-      <hr>
+    <div class="section-title text-center">
+      <h2 class="text-success">A PROPOS</h2>
+      <hr class="border-success">
     </div>
 
-    <div class="row content">
+    <div class="row fs-4" >
       <div class="col-lg-6">
         <p>
-          FABF est une plateforme dédiée à soutenir les forces armées béninoises en leur offrant des services telles que :
+          FABF est une plateforme dédiée à soutenir les forces armées béninoises en leur offrant des services tels que :
         </p>
-        <ul>
-          <li style="list-style: none"><i class="bi bi-check-all"></i> La consultation de leur relevé de salaire</li>
-          <li style="list-style: none"><i class="bi bi-check-all"></i> L'échange sécurisé de documents administratifs</li>
-          <li style="list-style: none"><i class="bi bi-check-all"></i> La gestion des demandes administratives</li>
+        <ul class="list-unstyled">
+          <li><i class="bi bi-check-all"></i> La consultation de leur relevé de salaire</li>
+          <li><i class="bi bi-check-all"></i> L'échange sécurisé de documents administratifs</li>
+          <li><i class="bi bi-check-all"></i> La gestion des demandes administratives</li>
         </ul>
       </div>
-      <div class="col-lg-6 pt-4 pt-lg-0">
+      <div class="col-lg-6">
         <p>
-          Notre objectif est de simplifier les processus et faciliter la communication interne tout en garantissant la sécurité 
-          et la confidentialité des informations.
+          Notre objectif est de simplifier les processus et faciliter la communication interne tout en garantissant la sécurité et la confidentialité des informations.
         </p>
         <p>
-          Contactez nous pour en savoir plus sur nos services et comment nous pouvons vos aider dans vos missions
+          Contactez-nous pour en savoir plus sur nos services et comment nous pouvons vous aider dans vos missions.
         </p>
-        <button type="button" class="btn btn-success"><a href="#" style="text-decoration:none" class="text-light">Learn More</a></button>
+        <div class="text-center">
+          <button type="button" class="btn btn-success"><a href="#" class="text-light" style="text-decoration:none;">En savoir plus</a></button>
+        </div>
       </div>
     </div>
 
   </div>
 </section>
 
-<section id="contact" class="contact section-bg text-center">
+
+
+<section id="contact" class="contact section-bg text-center py-5">
   <div class="container">
 
     <div class="section-title ">
@@ -95,19 +160,19 @@
             <div class="col-lg-4 info">
               <i class="bi bi-geo-alt text-success"></i>
               <h4>Localisaion:</h4>
-              <p>A108 Adam Street<br>New York, NY 535022</p>
+              <p>Route de l'Aéroport 01 BP 301<br>Cotonou-Bénin</p>
             </div>
 
             <div class="col-lg-4 info mt-4 mt-lg-0">
               <i class="bi bi-envelope text-success"></i>
               <h4>Email:</h4>
-              <p>info@example.com<br>contact@example.com</p>
+              <p>info@finances.bj<br>cabinet@finances.bj<br>secretariatgeneral@finances.bj</p>
             </div>
 
             <div class="col-lg-4 info mt-4 mt-lg-0">
               <i class="bi bi-phone text-success"></i>
               <h4>Appeler:</h4>
-              <p>+1 5589 55488 51<br>+1 5589 22475 14</p>
+              <p>+229 21 30 10 20<br></p>
             </div>
           </div>
         </div>
