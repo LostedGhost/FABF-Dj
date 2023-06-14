@@ -58,7 +58,7 @@
                                 
                             </ul>
                             <div class="d-flex justify-content-end">
-                                <a class="btn btn-outline-light text-light me-2 mx-2" href="login">Connexion</a>
+                                <a class="btn btn-light  me-2 mx-2" href="login">Connexion</a>
                                 <a class="btn btn-light" href="register">Inscription</a>
                             </div>
                         </div>
@@ -69,5 +69,26 @@
     {% block main %}
 
     {% endblock main %}
+
+    {% block footer %}
+        <style>
+           .custom-bg {
+            background-color: #aaaaaa; /* Remplacez cette valeur par votre couleur de fond personnalisée */
+           }
+        </style>
+
+        <div class="custom-bg">
+            <div class="container">
+              <div class="official-logo d-flex justify-content-start">
+                  <a href="https://finances.bj/">
+                      <img src="https://finances.bj/wp-content/themes/theme-ministere-finances/img/icons/official_logo.png" style="width:200px">
+                 </a>
+              </div>
+              <div class="text-dark text-end">
+                 &copy; 2015-2023 Ministère de l'Économie et des Finances. Tous droits réservés.
+             </div>
+          </div>
+      </div>
+    {% endblock %}
             
 {% endblock %}
